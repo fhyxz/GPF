@@ -8,7 +8,7 @@ spark-submit --class org.ncic.bioinfo.sparkseq.WGSPipeline \
  --driver-memory ${driver_memory} \
  --executor-memory ${executor_memory} \
  --total-executor-cores ${total_executor_cores} \
- /PATH/TO/SparkSeq/target/spark-seq-0.9.0-jar-with-dependencies.jar \
+ /PATH/TO/GPF/target/spark-seq-0.9.0-jar-with-dependencies.jar \
  -ref /PATH/TO/human_g1k_v37.fasta \
  -dict /PATH/TO/human_g1k_v37.dict \
  -fq1 /PATH/TO/DATA/1.fastq \
