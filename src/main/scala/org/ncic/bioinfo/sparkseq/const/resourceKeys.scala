@@ -1,0 +1,15 @@
+package org.ncic.bioinfo.sparkseq.const
+
+/**
+  * Author: wbc
+  */
+object ResourceKeys {
+  val MAPPING_PARTITION_COUNT = "PARTITION_COUNT"
+  val REF_CONTIG_INFO = "REF_CONTIG_INFO"
+  val REF_PARTITION_INFO = "REF_PARTITION_INFO"
+  val PARTITION_LENGTH = "PARTITION_LENGTH"
+  val OVERLAP_LENGTH = "OVERLAP_LENGTH"
+
+  val REFERENCE_PATH = "REFERENCE_PATH"
+  val REFERENCE_BUNDLE = "REFERENCE_BUNDLE"
+}
